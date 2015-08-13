@@ -1,10 +1,11 @@
+'use strict';
 // API
 
 class IO {
 	static print() {
 		var args = "";
 		for(var arg of arguments) {
-			args += arg.toString();
+			args += arg;
 		}
 		console.log(args);
 	}
