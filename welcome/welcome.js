@@ -17,7 +17,7 @@ class Fiber {
 	}
 	
 	call() {
-      	let v = this.generator.next();
+		let v = this.generator.next();
 		this.done = v.done;
 		return v.value;
 	}
