@@ -1,3 +1,5 @@
+'use strict';
+
 import Cthulu from "cthulu.js"
 
 class Lovecraft {
